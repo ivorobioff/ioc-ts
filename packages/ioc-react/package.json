@@ -1,0 +1,22 @@
+{
+  "name": "@ivorobioff/ioc-react",
+  "version": "0.1.0",
+  "description": "A simple service locator to manage and resolve services in applications.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"There are no tests yet.\""
+  },
+  "dependencies": {
+    "@ivorobioff/ioc-container": "*"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
+    "react": "17.0.2"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@ivorobioff/ioc",
+  "description": "A simple IoC solution for TypeScript and JavaScript projects.",
+  "author": "Igor Vorobiov <igor.vorobioff@gmail.com>",
+  "homepage": "https://github.com/ivorobioff/ioc-ts",
+  "bugs": {
+    "url": "https://github.com/ivorobioff/ioc-ts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivorobioff/ioc-ts.git"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  }
+}
