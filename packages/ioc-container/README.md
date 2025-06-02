@@ -2,9 +2,8 @@
 
 A minimalistic, fast, zero-dependency service locator / dependency injection container for TypeScript projects.
 
-## Features
+## ✨ Features
 
-✨ Features
 - Register instances, classes, or factories
 - Lazy instantiation
 - Container locks on first `get` to prevent mutations
