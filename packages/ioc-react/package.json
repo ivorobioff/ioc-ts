@@ -19,7 +19,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "echo \"There are no tests yet.\""
+    "test": "echo \"There are no tests yet.\"",
+    "lint": "npx eslint ."
   },
   "engines": {
     "node": ">=18"

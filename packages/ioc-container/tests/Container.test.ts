@@ -7,9 +7,9 @@ class SomeService {
 
 describe('Container', () => {
     it('registers an instance, and then checks and retrieves it', () => {
-        let container = new Container();
-        let instance1 = new SomeService();
-        let instance2 = new SomeService();
+        const container = new Container();
+        const instance1 = new SomeService();
+        const instance2 = new SomeService();
 
         expect(container.has(SomeService)).toBeFalsy();
         expect(container.has('some')).toBeFalsy();
@@ -25,9 +25,9 @@ describe('Container', () => {
     });
 
     it('registers a factory, and then checks and retrieves the instance', () => {
-        let container = new Container();
-        let instance1 = new SomeService();
-        let instance2 = new SomeService();
+        const container = new Container();
+        const instance1 = new SomeService();
+        const instance2 = new SomeService();
 
         expect(container.has(SomeService)).toBeFalsy();
         expect(container.has('some')).toBeFalsy();
@@ -43,7 +43,7 @@ describe('Container', () => {
     });
 
     it('registers a type, and then checks and retrieves its instance', () => {
-        let container = new Container();
+        const container = new Container();
 
         expect(container.has(SomeService)).toBeFalsy();
         expect(container.has('some')).toBeFalsy();
@@ -54,8 +54,8 @@ describe('Container', () => {
         expect(container.has(SomeService)).toBeTruthy();
         expect(container.has('some')).toBeTruthy();
 
-        let instance1 = container.get(SomeService);
-        let instance2 = container.get('some');
+        const instance1 = container.get(SomeService);
+        const instance2 = container.get('some');
 
         expect(instance1).toBeInstanceOf(SomeService);
         expect(instance2).toBeInstanceOf(SomeService);
@@ -63,8 +63,8 @@ describe('Container', () => {
     });
 
     it('checks if exists after retrieving', () => {
-        let container = new Container();
-        let instance = new SomeService();
+        const container = new Container();
+        const instance = new SomeService();
 
         container.registerInstance(SomeService, instance);
 
@@ -74,13 +74,13 @@ describe('Container', () => {
     });
 
     it('injects container when creating from type', () => {
-        let container = new Container();
+        const container = new Container();
 
         container.registerType(SomeService);
         container.registerType('some', SomeService);
 
-        let instance1 = container.get(SomeService);
-        let instance2 = container.get<SomeService>('some');
+        const instance1 = container.get(SomeService);
+        const instance2 = container.get<SomeService>('some');
 
         expect(instance1).not.toBe(instance2);
 
@@ -89,10 +89,10 @@ describe('Container', () => {
     });
 
     it('registers and then overrides', () => {
-        let container = new Container();
+        const container = new Container();
 
-        var instance1 = new SomeService();
-        var instance2 = new SomeService();
+        const instance1 = new SomeService();
+        const instance2 = new SomeService();
 
         container.registerType(SomeService);
         container.registerInstance(SomeService, instance1);
@@ -103,7 +103,7 @@ describe('Container', () => {
 
 
     it('registers and retrieves and registers again', () => {
-        let container = new Container();
+        const container = new Container();
 
         container.registerType(SomeService);
 
@@ -114,7 +114,7 @@ describe('Container', () => {
     });
 
     it('registers factory that creates nothing', () => {
-        let container = new Container();
+        const container = new Container();
 
         container.registerFactory(SomeService, () => null);
 
@@ -123,7 +123,7 @@ describe('Container', () => {
     });
 
     it('misses', () => {
-        let container = new Container();
+        const container = new Container();
 
         expect(() => container.get(SomeService))
             .toThrow(`'SomeService' not registered!`);
