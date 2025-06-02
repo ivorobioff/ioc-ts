@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Igor Vorobiov <igor.vorobioff@gmail.com>",
-  "homepage": "https://github.com/ivorobioff/ioc-ts",
+  "homepage": "https://github.com/ivorobioff/ioc-ts/tree/main/packages/ioc-react",
   "bugs": {
     "url": "https://github.com/ivorobioff/ioc-ts/issues"
   },
@@ -29,9 +29,10 @@
     "@ivorobioff/ioc-container": "0.1.0"
   },
   "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^12.1.5",
     "@types/react": "17.0.2",
-    "@types/react-dom": "17.0.2",
-    "react": "17.0.2"
+    "@types/react-dom": "17.0.2"
   },
   "peerDependencies": {
     "react": ">=17.0.2"

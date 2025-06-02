@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Igor Vorobiov <igor.vorobioff@gmail.com>",
-  "homepage": "https://github.com/ivorobioff/ioc-ts",
+  "homepage": "https://github.com/ivorobioff/ioc-ts/tree/main/packages/ioc-container",
   "bugs": {
     "url": "https://github.com/ivorobioff/ioc-ts/issues"
   },
