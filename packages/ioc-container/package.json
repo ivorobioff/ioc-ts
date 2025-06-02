@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "vitest --run",
+    "test": "jest",
     "lint": "npx eslint ."
   }
 }

@@ -3,6 +3,8 @@
     "target": "es6",
     "module": "node18",
     "declaration": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
     "strict": true,
     "noUnusedLocals": true,
     "noImplicitReturns": true,
