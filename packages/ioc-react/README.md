@@ -11,7 +11,7 @@ npm install @ivorobioff/ioc-react
 ## 🎯 What It Does
 
 - Provides a React Context for the Service Locator.
-- Exposes a `useService` hook to retrieve registered services inside components.
+- Exposes the `useService` hook to retrieve registered services inside components.
 
 ## 🚀 Quick Start
 
