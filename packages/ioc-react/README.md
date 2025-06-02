@@ -84,7 +84,7 @@ const logger = useService(Logger);
 
 `container`
 
-The singleton container instance used to register and resolve services.
+The singleton container instance used to register services.
 
 **Example**
 
