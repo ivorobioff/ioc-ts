@@ -4,9 +4,25 @@
   "description": "An integration that enables the use of the Service Locator in React applications.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "author": "Igor Vorobiov <igor.vorobioff@gmail.com>",
+  "homepage": "https://github.com/ivorobioff/ioc-ts",
+  "bugs": {
+    "url": "https://github.com/ivorobioff/ioc-ts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivorobioff/ioc-ts.git"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "echo \"There are no tests yet.\""
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "@ivorobioff/ioc-container": "0.1.0"

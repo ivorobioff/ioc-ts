@@ -11,9 +11,6 @@
     "url": "git+https://github.com/ivorobioff/ioc-ts.git"
   },
   "license": "MIT",
-  "files": [
-    "dist"
-  ],
   "engines": {
     "node": ">=18"
   },
