@@ -1,7 +1,7 @@
 {
   "name": "@ivorobioff/ioc-react",
   "version": "0.1.0",
-  "description": "A simple service locator to manage and resolve services in applications.",
+  "description": "An integration that enables the use of the Service Locator in React applications.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
