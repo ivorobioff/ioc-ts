@@ -14,6 +14,16 @@
     "url": "git+https://github.com/ivorobioff/ioc-ts.git"
   },
   "license": "MIT",
+  "keywords": [
+    "react",
+    "typescript",
+    "dependency-injection",
+    "inversion-of-control",
+    "ioc",
+    "di",
+    "react-hooks",
+    "react-di"
+  ],
   "files": [
     "dist"
   ],
@@ -26,7 +36,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@ivorobioff/ioc-container": "0.1.0"
+    "@ivorobioff/ioc-container": "0.1.5"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.0",

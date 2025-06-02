@@ -1,6 +1,6 @@
 {
   "name": "@ivorobioff/ioc-container",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "A simple service locator to manage and resolve services in applications.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,6 +14,15 @@
     "url": "git+https://github.com/ivorobioff/ioc-ts.git"
   },
   "license": "MIT",
+  "keywords": [
+    "typescript",
+    "ioc",
+    "inversion-of-control",
+    "dependency-injection",
+    "di",
+    "container",
+    "service-locator"
+  ],
   "engines": {
     "node": ">=18"
   },
