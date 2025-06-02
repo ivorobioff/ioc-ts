@@ -9,7 +9,7 @@
     "test": "echo \"There are no tests yet.\""
   },
   "dependencies": {
-    "@ivorobioff/ioc-container": "*"
+    "@ivorobioff/ioc-container": "0.1.0"
   },
   "devDependencies": {
     "@types/react": "17.0.2",
