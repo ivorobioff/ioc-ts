@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "echo \"There are no tests yet.\"",
+    "test": "jest",
     "lint": "npx eslint ."
   },
   "engines": {
@@ -30,9 +30,11 @@
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^12.1.5",
     "@types/react": "17.0.2",
-    "@types/react-dom": "17.0.2"
+    "@types/react-dom": "17.0.2",
+    "jest-environment-jsdom": "^30.0.0-beta.3"
   },
   "peerDependencies": {
     "react": ">=17.0.2"
